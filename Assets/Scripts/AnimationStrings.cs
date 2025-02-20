@@ -11,8 +11,10 @@ using System.Threading.Tasks;
         internal static string isRuning = "isRunning";
     internal static string isGrounded = "isGrounded";
     internal static string yVelocity = "yVelocity";
-    internal static string jump = "jump";
+    internal static string jumpTrigger = "jump";
     internal static string IsOnWall = "isOnWall";
     internal static string IsOnCeiling = "isOnCeiling";
+    internal static string attackTrigger = "attack";
+    internal static string canMove = "canMove";
 }
 
