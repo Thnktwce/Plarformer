@@ -17,12 +17,6 @@ TextureImporter:
   - first:
       213: 3156989228384878200
     second: Attack_1_4
-  - first:
-      213: -4176445809780997858
-    second: Attack_1_5
-  - first:
-      213: 9111255474114485651
-    second: Attack_1_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,10 +130,10 @@ TextureImporter:
         serializedVersion: 2
         x: 22
         y: 0
-        width: 41
-        height: 60
+        width: 53
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,12 +150,12 @@ TextureImporter:
       name: Attack_1_1
       rect:
         serializedVersion: 2
-        x: 118
+        x: 150
         y: 0
-        width: 41
-        height: 60
+        width: 53
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +172,12 @@ TextureImporter:
       name: Attack_1_2
       rect:
         serializedVersion: 2
-        x: 214
+        x: 274
         y: 0
-        width: 43
-        height: 60
+        width: 102
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,37 +191,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_1_3
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 0
-        width: 47
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a0a708e5eb201140800000000000000
-      internalID: 4688295478533005478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Attack_1_4
       rect:
         serializedVersion: 2
-        x: 356
-        y: 24
-        width: 23
-        height: 14
+        x: 402
+        y: 0
+        width: 95
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,55 +212,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Attack_1_5
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 46
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e11c55ce9a84a06c0800000000000000
-      internalID: -4176445809780997858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_1_6
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 0
-        width: 44
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39d5d68849ea17e70800000000000000
-      internalID: 9111255474114485651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eee038529a79fa247be6fac9dcbe3583
     internalID: 0
     vertices: []
     indices: 
@@ -297,7 +225,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Attack_1_0: -8915327726919978405
+      Attack_1_1: 4416717768442454902
+      Attack_1_2: -8053095777402275025
+      Attack_1_4: 3156989228384878200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

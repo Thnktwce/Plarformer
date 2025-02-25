@@ -3,8 +3,7 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.InputSystem.InputAction;
-[RequireComponent(typeof(Rigidbody2D), typeof(TouchingSpaceDirections))]
-
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingSpaceDirections), typeof(Damageble))]
 public class PlayerController : MonoBehaviour
 {
     public float walkSpeed = 5f;
@@ -13,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public float jumpImpulse = 10f;
     Vector2 moveInput;
     TouchingSpaceDirections toucingspaceDirections;
-
+    Damageble damageble;
     public float CurrentMoveSpeed { get
         {
             if (CanMove)
@@ -105,6 +104,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public bool IsAlive
+    {
+        get
+        {
+            return animator.GetBool(AnimationStrings.isAlive);
+        }
+    }
+
+    
+
     Rigidbody2D rb;
     Animator animator;
     
@@ -113,12 +122,15 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        toucingspaceDirections = GetComponent<TouchingSpaceDirections>();   
+        toucingspaceDirections = GetComponent<TouchingSpaceDirections>();
+        damageble = GetComponent<Damageble>();
+        
     }
 
     
     private void FixedUpdate()
     {
+        if(!damageble.LockVelocity)
         rb.linearVelocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.linearVelocity.y);
         animator.SetFloat(AnimationStrings.yVelocity, rb.linearVelocity.y);
     }
@@ -126,9 +138,18 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = context.ReadValue<Vector2>();
 
-        IsMoving = moveInput != Vector2.zero;
+        if(IsAlive)
+        {
+            IsMoving = moveInput != Vector2.zero;
 
-        SetFacingDirection(moveInput);
+            SetFacingDirection(moveInput);
+        }
+        else
+        {
+            IsMoving = false;
+        }
+
+       
 
 
     }
@@ -177,5 +198,9 @@ public class PlayerController : MonoBehaviour
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
     }
-
+    public void OnHit(int damage, Vector2 knockback)
+    {
+        
+        rb.linearVelocity = new Vector2(knockback.x, rb.linearVelocity.y + knockback.y);
+    }
 }

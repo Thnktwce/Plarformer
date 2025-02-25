@@ -20,6 +20,12 @@ TextureImporter:
   - first:
       213: -2217414122262695004
     second: Run_5
+  - first:
+      213: -4440497016933152808
+    second: Run_6
+  - first:
+      213: 8676454946275842879
+    second: Run_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,10 +137,10 @@ TextureImporter:
       name: Run_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 9
         y: 0
-        width: 47
-        height: 63
+        width: 56
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +159,10 @@ TextureImporter:
       name: Run_1
       rect:
         serializedVersion: 2
-        x: 120
+        x: 138
         y: 0
-        width: 47
-        height: 62
+        width: 56
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +181,10 @@ TextureImporter:
       name: Run_2
       rect:
         serializedVersion: 2
-        x: 212
+        x: 266
         y: 0
-        width: 51
-        height: 61
+        width: 56
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +203,10 @@ TextureImporter:
       name: Run_3
       rect:
         serializedVersion: 2
-        x: 312
+        x: 395
         y: 0
-        width: 47
-        height: 62
+        width: 56
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +225,10 @@ TextureImporter:
       name: Run_4
       rect:
         serializedVersion: 2
-        x: 408
+        x: 522
         y: 0
-        width: 47
-        height: 62
+        width: 56
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +247,10 @@ TextureImporter:
       name: Run_5
       rect:
         serializedVersion: 2
-        x: 502
+        x: 650
         y: 0
-        width: 49
-        height: 61
+        width: 56
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,6 +261,50 @@ TextureImporter:
       bones: []
       spriteID: 4a3f89aaa992a31e0800000000000000
       internalID: -2217414122262695004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 0
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d784876d7f2062c0800000000000000
+      internalID: -4440497016933152808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 0
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bd376cdc5f86870800000000000000
+      internalID: 8676454946275842879
       vertices: []
       indices: 
       edges: []

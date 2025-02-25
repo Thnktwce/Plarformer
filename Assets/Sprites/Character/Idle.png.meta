@@ -131,10 +131,10 @@ TextureImporter:
       name: Idle_0
       rect:
         serializedVersion: 2
-        x: 26
+        x: 0
         y: 0
-        width: 37
-        height: 69
+        width: 57
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Idle_1
       rect:
         serializedVersion: 2
-        x: 122
+        x: 127
         y: 0
-        width: 36
-        height: 69
+        width: 58
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: Idle_2
       rect:
         serializedVersion: 2
-        x: 218
+        x: 255
         y: 0
-        width: 36
-        height: 69
+        width: 58
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Idle_3
       rect:
         serializedVersion: 2
-        x: 314
+        x: 383
         y: 0
-        width: 34
-        height: 69
+        width: 58
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: Idle_4
       rect:
         serializedVersion: 2
-        x: 410
+        x: 511
         y: 0
-        width: 36
-        height: 69
+        width: 58
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: Idle_5
       rect:
         serializedVersion: 2
-        x: 506
+        x: 638
         y: 0
-        width: 36
-        height: 69
+        width: 58
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,13 +272,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Idle_0: 4723107735738678597
-      Idle_1: -7385789195546760866
-      Idle_2: 3234629978573100161
-      Idle_3: 6373048116405451881
-      Idle_4: 7264182050183361747
-      Idle_5: -2834552850196481573
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

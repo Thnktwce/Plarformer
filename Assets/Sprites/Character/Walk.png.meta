@@ -26,6 +26,9 @@ TextureImporter:
   - first:
       213: 7144598999076838305
     second: Walk_7
+  - first:
+      213: 7500509103958437945
+    second: Walk_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,10 +140,10 @@ TextureImporter:
       name: Walk_0
       rect:
         serializedVersion: 2
-        x: 26
+        x: 25
         y: 0
-        width: 38
-        height: 66
+        width: 60
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +162,10 @@ TextureImporter:
       name: Walk_1
       rect:
         serializedVersion: 2
-        x: 122
+        x: 153
         y: 0
-        width: 38
-        height: 66
+        width: 60
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +184,10 @@ TextureImporter:
       name: Walk_2
       rect:
         serializedVersion: 2
-        x: 217
+        x: 281
         y: 0
-        width: 39
-        height: 66
+        width: 60
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +206,10 @@ TextureImporter:
       name: Walk_3
       rect:
         serializedVersion: 2
-        x: 313
+        x: 409
         y: 0
-        width: 39
-        height: 66
+        width: 60
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +228,10 @@ TextureImporter:
       name: Walk_4
       rect:
         serializedVersion: 2
-        x: 409
+        x: 536
         y: 0
-        width: 39
-        height: 66
+        width: 60
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +250,10 @@ TextureImporter:
       name: Walk_5
       rect:
         serializedVersion: 2
-        x: 507
+        x: 665
         y: 0
-        width: 37
-        height: 66
+        width: 60
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +272,10 @@ TextureImporter:
       name: Walk_6
       rect:
         serializedVersion: 2
-        x: 601
+        x: 793
         y: 0
-        width: 39
-        height: 66
+        width: 60
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +294,10 @@ TextureImporter:
       name: Walk_7
       rect:
         serializedVersion: 2
-        x: 697
+        x: 921
         y: 0
-        width: 39
-        height: 66
+        width: 60
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,6 +308,28 @@ TextureImporter:
       bones: []
       spriteID: 1ab169a9fe6b62360800000000000000
       internalID: 7144598999076838305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_8
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930b6086a49271860800000000000000
+      internalID: 7500509103958437945
       vertices: []
       indices: 
       edges: []
@@ -322,15 +347,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Walk_0: 4035959289877228764
-      Walk_1: -982904232830982447
-      Walk_2: -350908408369970039
-      Walk_3: -5409570386352685021
-      Walk_4: 1553940418269799609
-      Walk_5: 2416434504916517810
-      Walk_6: -6428935122508569504
-      Walk_7: 7144598999076838305
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
